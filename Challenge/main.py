@@ -164,7 +164,7 @@ while True:
             if (valores['repeticao'] == list_rep[0]):
                 valores['repeticao'] = '0'
             #####################################################
-            credentials = pickle.load(open("token.pkl","rb"))
+            credentials = pickle.load(open("token_teste.pkl","rb"))
             #print (credentials)
 
             service = build("calendar", "v3", credentials=credentials)
